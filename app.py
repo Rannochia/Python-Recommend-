@@ -88,6 +88,3 @@ if trigger and user_input:
         for movie in recommendations:
             st.write(f"🎥 {movie}")
 
-
-
-
