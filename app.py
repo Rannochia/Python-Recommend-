@@ -75,7 +75,7 @@ with col2:
     ):
         trigger = True
 
-num_recommendations = st.slider("Number of Recommendations", min_value=1, max_value=20, value=10)
+num_recommendations = st.slider("Number of Recommendations", min_value=5, max_value=20, value=10)
 
 # Show recommendations
 if trigger and user_input:
